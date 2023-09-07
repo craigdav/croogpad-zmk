@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: craigdav
+      url-base: https://github.com/craigdav
   projects:
-    - name: zmk
-      remote: zmkfirmware
+    - name: croogpad-zmk
+      remote: craigdav
       revision: main
       import: app/west.yml
   self:
